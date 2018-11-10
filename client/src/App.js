@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import NavBar from './NavBar/NavBar.js';
+import Home from './containers/home/home.js';
+
 class App extends Component {
   render() {
     return (
-      <div className = 'App'>
-    
-      <header>
-        <NavBar/>
-      </header>
-      Software Developer | Photographer
-      </div>
+      <BrowserRouter>
+        <div className = 'App'>
+          <Home />
+        </div>
+      </BrowserRouter>
     );
   }
 }
