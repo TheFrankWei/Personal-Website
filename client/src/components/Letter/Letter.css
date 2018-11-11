@@ -1,0 +1,36 @@
+
+@keyframes mDown {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 50px;
+    }
+    100% {
+      top: 0px;
+  }
+}
+
+:hover {
+  animation: mDown 3s;
+
+}
+
+#f{
+  color: red;
+}
+
+.Letter {
+  color:black;
+  line-height: 110px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: -20px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  top: 0px;
+  transition: top ease-out 1.5s;
+  transition-delay: 0.18s;
+  opacity: 0.9;
+
+}
