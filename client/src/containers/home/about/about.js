@@ -6,12 +6,12 @@ class About extends Component {
   render() {
     return (
       <div className = 'About'>
-      <h1>
-          <Letter value="A"/>
-          <Letter value="B"/>
-          <Letter value="O"/>
-          <Letter value="U"/>
-          <Letter value="T"/>
+      <h1 className= "ATitle">
+          <Letter className = 'ATitle' value="A"/>
+          <Letter className = 'ATitle' value="B"/>
+          <Letter className = 'ATitle' value="O"/>
+          <Letter className = 'ATitle' value="U"/>
+          <Letter className = 'ATitle' value="T"/>
       </h1>
 
           <div className = 'bio'>

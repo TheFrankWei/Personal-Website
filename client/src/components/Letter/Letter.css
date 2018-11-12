@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
 @keyframes mDown {
     0% {
       top: 0px;
@@ -12,24 +14,23 @@
 }
 
 :hover {
-  animation: mDown 3s;
-
+transition: top 2s;
+transition-duration: 2s;
+top: 50px;
 }
 
-#f{
-  color: red;
-}
 
-.Letter {
+
+span{
   color:black;
   line-height: 110px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
   letter-spacing: -20px;
   mix-blend-mode: color-burn;
   position: relative;
   top: 0px;
-  transition: top ease-out 1.5s;
+  transition: top 2s;
   transition-delay: 0.18s;
   opacity: 0.9;
 

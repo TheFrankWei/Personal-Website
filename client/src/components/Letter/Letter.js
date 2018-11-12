@@ -3,15 +3,12 @@ import './Letter.css';
 
 const Letter = (props) => {
 
-  const animationHelper = () => {
-  
-  }
+
   return(
   <span
-  className = 'Letter'
-  onMouseOver = {animationHelper}>
+  className = {'Letter'+'__'+props.className}
+  id = {props.value}>
   {props.value}
-
   </span>
 )
 }
