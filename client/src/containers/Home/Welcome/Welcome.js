@@ -4,7 +4,7 @@ import Letter from './../../../components/Letter/Letter.js';
 class Welcome extends Component {
   render() {
     return (
-      <div className = 'Welcome'>
+      <div className = 'Welcome' id = 'Welcome'>
         <h1 className="Name">
           <Letter className = "WName" value="F"/>
           <Letter className = "WName" value="R"/>

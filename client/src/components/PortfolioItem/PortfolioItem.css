@@ -10,6 +10,10 @@
     0 2px 1px -2px rgba(0, 0, 0, 0.2);
   width: 12rem;
   margin: 1rem 1rem;
+  height:200px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
   .PortfolioItem:hover {
     box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);

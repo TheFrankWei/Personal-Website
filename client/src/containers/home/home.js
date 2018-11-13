@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Home.css';
 
+import Nav from './../../components/Nav/Nav.js';
 import About from './About/About.js';
 import Portfolio from './Portfolio/Portfolio.js';
 import Contact from './Contact/Contact.js';
@@ -10,24 +12,18 @@ import Welcome from './Welcome/Welcome.js';
 class Home extends Component {
   render() {
     return (
-      <div className = 'Home'>
-        <ul>
-          <li><Link to='/Contact'>Contact</Link></li>
-          <li><Link to='/Portfolio'>Portfolio</Link></li>
-          <li><Link to='/About'>About</Link></li>
-          <li><Link to='/'>Home</Link></li>
-        </ul>
+      <div className = 'Home' id= 'Home'>
+        <Nav/>
 
-
-        {Welcome}
-        {About}
-        {Portfolio}
-        {Contact}
-
-        <Route path='/' exact component = {Welcome} />
+    {/* <Route path='/Welcome' exact component = {Welcome} />
         <Route path='/About' exact component={About}/>
         <Route path='/Portfolio' exact component={Portfolio}/>
-        <Route path='/Contact' exact component={Contact}/>
+        <Route path='/Contact' exact component={Contact}/>   */}
+
+        <Welcome/>
+        <About/>
+        <Portfolio />
+        <Contact/>
       </div>
     );
   }

@@ -10,7 +10,7 @@ class Portfolio extends Component {
 
   ) {
   return (
-   <div className="portfolio-page">
+   <div className="Portfolio" id = "Portfolio">
       <h1 className = "PTitle">
         <Letter className = 'PTitle' value="P"/>
         <Letter className = 'PTitle' value="O"/>
@@ -22,11 +22,11 @@ class Portfolio extends Component {
         <Letter className = 'PTitle' value="I"/>
         <Letter className = 'PTitle' value="O"/>
       </h1>
-     <div className="content-grid">
+     <div className="ContentGrid">
      {PortfolioItems.map((item, i) => (
            <PortfolioItem render={item.render} key={i} />
          ))}
-       </div>
+     </div>
    </div>
  );
 };

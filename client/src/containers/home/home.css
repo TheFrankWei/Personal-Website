@@ -1,18 +1,35 @@
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    padding-top: 4%;
-    padding-right: 10%;
+.Welcome{
+  height: 100vh;
 }
 
-li {
-    float: right;
+.About{
+   height: 100vh;
+}
 
+.Portfolio{
+  height: 100vh;
+}
+
+.Contact{
+  height: 100vh;
+}
+
+.Welcome::before{
+  padding-top: 100%;
+  float: left;
+}
+
+.About::before{
+  padding-top: 100%;
+  float: left;
+}
+.Portfolio::before{
+  padding-top: 100%;
+  float: left;
+}
+.Contact::before{
+  padding-top: 100%;
+  float: left;
 }
 
 /* .HomePage{
@@ -23,18 +40,3 @@ li {
   padding-left: 10%;
   font-size: 60px;
 } */
-
-li a {
-    display: block;
-    color: #3A3A32;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Mukta', sans-serif;
-}
-
-li a:hover {
-    color: #A31022;
-    text-decoration: underline;
-}

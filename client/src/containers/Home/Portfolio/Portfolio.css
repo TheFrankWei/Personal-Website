@@ -1,9 +1,17 @@
-h1.PTitle{
+.PTitle{
   margin-left: 40px;
-  display: block;
+  display:block;
   text-align: left;
+  padding-top: 10%;
+  padding-left: 5%;
 }
 
 .Letter__PTitle{
   font-size: 100px;
+}
+
+.ContentGrid{
+   display: inline-flex;
+   justify-content: space-evenly;
+   padding-top:5%;
 }

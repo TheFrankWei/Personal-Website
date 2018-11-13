@@ -5,7 +5,7 @@ import './Contact.css';
 class Contact extends Component {
   render() {
     return (
-      <div className = 'Contact'>
+      <div className = 'Contact' id = 'Contact'>
       <h1 className='CTitle'>
         <Letter className = 'CTitle' value="C"/>
         <Letter className = 'CTitle' value="O"/>

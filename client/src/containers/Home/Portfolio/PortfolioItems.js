@@ -15,8 +15,7 @@ export default [{
         <i className="fab fa-npm"></i>
       </div>
       <div className='PortfolioItem__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">GitHub</a>
       </div>
     </div>
   )
@@ -35,8 +34,7 @@ export default [{
         <i className="fab fa-npm"></i>
       </div>
       <div className='PortfolioItem__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">GitHub</a>
       </div>
     </div>
     )
@@ -55,8 +53,7 @@ export default [{
           <i className="fab fa-npm"></i>
         </div>
         <div className='PortfolioItem__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">Google Drive</a>
         </div>
       </div>
     )
@@ -75,8 +72,7 @@ export default [{
           <i className="fab fa-npm"></i>
         </div>
         <div className='PortfolioItem__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">Instagram</a>
         </div>
       </div>
     )
