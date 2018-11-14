@@ -1,4 +1,7 @@
 import React from 'react';
+import GitHub from './../../../images/github.svg';
+import PDF from './../../../images/pdf.svg';
+import Javascript from './../../../images/javascript.svg';
 
 export default [{
   name: 'typy',
@@ -11,11 +14,11 @@ export default [{
         JavaScript Webapp allowing you to record Workouts
       </div>
       <div className='PortfolioItem__icon'>
-        <i className="fab fa-js"></i>
+        <i className="Javascript"></i>
         <i className="fab fa-npm"></i>
       </div>
       <div className='PortfolioItem__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">GitHub</a>
+        <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/TheFrankWei/LiftSpotter" alt='Github Link'/></a>
       </div>
     </div>
   )
@@ -30,10 +33,11 @@ export default [{
         Javascript Webapp helping you find your stuff!
       </div>
       <div className='PortfolioItem__icon'>
-        <i className="fab fa-js"></i>
+        <i className="Javascript"></i>
         <i className="fab fa-npm"></i>
       </div>
       <div className='PortfolioItem__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">More</a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">GitHub</a>
       </div>
     </div>
@@ -43,16 +47,17 @@ export default [{
     render: (
       <div className='PortfolioItem'>
         <div className='PortfolioItem__title'>
-          SoundBytes
+          SoundByte
         </div>
         <div className='PortfolioItem__desc'>
           UX Design Project
         </div>
         <div className='PortfolioItem__icon'>
-          <i className="fab fa-js"></i>
+          <i className="Javascript"></i>
           <i className="fab fa-npm"></i>
         </div>
         <div className='PortfolioItem__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">More</a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">Google Drive</a>
         </div>
       </div>
@@ -65,14 +70,14 @@ export default [{
           Photography
         </div>
         <div className='PortfolioItem__desc'>
-          Some pics I took and edited!
+          Pictures I've taken and edited!
         </div>
         <div className='PortfolioItem__icon'>
           <i className="fab fa-js"></i>
           <i className="fab fa-npm"></i>
         </div>
         <div className='PortfolioItem__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">Instagram</a>
+          <p>(to be added)</p>
         </div>
       </div>
     )

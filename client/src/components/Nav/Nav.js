@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './Nav.css';
 import { HashLink as Link } from 'react-router-hash-link';
-
+import UpIcon from './../../images/scroll_up_icon.svg';
 
 class Nav extends Component{
+
   render(){
     const scrollToTop= () => {
       window.scrollTo({top:0, behavior:'smooth'});
@@ -19,8 +20,19 @@ class Nav extends Component{
     </ul>
     </div>
 
-    <button id = 'toTop'
-            onClick={scrollToTop}>to top</button>
+    <div className = 'toTopWrapper'>
+    {/* <button id = 'toTop'
+    //         onClick={scrollToTop}><img
+    //         src={UpIcon}
+    //         alt='scroll up!'/>
+    // </button>*/}
+    <a
+      id = 'toTop'
+      onClick={scrollToTop}><img
+      src={UpIcon}
+      alt='scroll up!'/>
+    </a>
+    </div>
     </div>
 
   );

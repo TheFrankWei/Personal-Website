@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 h1.ATitle {
 
   text-align: left;
   padding-left: 20%;
+  padding-top:14%;
 }
 
 .bio{
+ font-family: 'Nunito', sans-serif;
  font-size: 20px;
  text-align: left;
  padding-left: 20%;

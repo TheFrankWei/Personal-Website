@@ -13,7 +13,7 @@
   }
 }
 
-:hover {
+#Letter:hover {
 transition: top 2s;
 transition-duration: 2s;
 top: 50px;

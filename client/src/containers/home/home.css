@@ -14,24 +14,6 @@
   height: 100vh;
 }
 
-.Welcome::before{
-  padding-top: 100%;
-  float: left;
-}
-
-.About::before{
-  padding-top: 100%;
-  float: left;
-}
-.Portfolio::before{
-  padding-top: 100%;
-  float: left;
-}
-.Contact::before{
-  padding-top: 100%;
-  float: left;
-}
-
 /* .HomePage{
   float:left;
   display: block;

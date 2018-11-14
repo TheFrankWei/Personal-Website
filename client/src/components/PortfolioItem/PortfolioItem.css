@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
 
 .PortfolioItem {
   display: flex;
@@ -14,7 +15,31 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  font-family: 'Fira Sans', sans-serif;
 }
   .PortfolioItem:hover {
     box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
   }
+
+.PortfolioItem__title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.PortfolioItem__desc{
+
+}
+
+.PortfolioItem__icon{
+
+}
+.PortfolioItem__links{
+  display: flex;
+
+
+}
+
+.PortfolioItem__links > a{
+justify-content: space-between;
+margin: 10%;
+}

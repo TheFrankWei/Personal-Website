@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import Letter from './../../../components/Letter/Letter.js';
+
+import GitHub from './../../../images/github.svg'
+import Linkedin from './../../../images/linkedin.svg'
+import Flickr from './../../../images/flickr.svg'
+
 import './Contact.css';
 
 class Contact extends Component {
+  constructor(){
+    super();
+    this.state = {
+       buttonClicked: true
+    }
+}
+
   render() {
     return (
       <div className = 'Contact' id = 'Contact'>
@@ -15,6 +27,12 @@ class Contact extends Component {
         <Letter className = 'CTitle' value="C"/>
         <Letter className = 'CTitle' value="T"/>
       </h1>
+
+      <div className = 'contact_icons'>
+        <a href='https://github.com/TheFrankWei' target="_blank" rel="noopener"><img src={GitHub} alt="Github"/></a>
+        <a href='https://www.linkedin.com/in/TheFrankWei/' target="_blank" rel="noopener"><img  src={Linkedin} alt="Linkedin"/></a>
+        <a href='https://www.linkedin.com/in/TheFrankWei/' target="_blank" rel="noopener"><img  src={Flickr} alt="Flickr"/></a>
+      </div>
       </div>
     );
   }

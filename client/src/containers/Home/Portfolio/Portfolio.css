@@ -11,7 +11,18 @@
 }
 
 .ContentGrid{
+
    display: inline-flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
    padding-top:5%;
+   color: white;
+
+}
+
+.PortfolioItem{
+  background-color: #425966;
+}
+
+.PortfolioItem:hover{
+  background-color: #475f6c;
 }

@@ -6,7 +6,7 @@ import Home from './containers/Home/Home.js';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className = 'App'>
           <Home />
         </div>
