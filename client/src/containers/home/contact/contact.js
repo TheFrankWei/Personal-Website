@@ -1,21 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Letter from './../../../components/Letter/Letter.js';
-
+import Icon from './../../../components/Icon/Icon.js';
 import GitHub from './../../../images/github.svg'
 import Linkedin from './../../../images/linkedin.svg'
 import Flickr from './../../../images/flickr.svg'
 
 import './Contact.css';
 
-class Contact extends Component {
-  constructor(){
-    super();
-    this.state = {
-       buttonClicked: true
-    }
-}
-
-  render() {
+const Contact = () =>{
     return (
       <div className = 'Contact' id = 'Contact'>
       <h1 className='CTitle'>
@@ -29,13 +21,13 @@ class Contact extends Component {
       </h1>
 
       <div className = 'contact_icons'>
-        <a href='https://github.com/TheFrankWei' target="_blank" rel="noopener"><img src={GitHub} alt="Github"/></a>
-        <a href='https://www.linkedin.com/in/TheFrankWei/' target="_blank" rel="noopener"><img  src={Linkedin} alt="Linkedin"/></a>
-        <a href='https://www.linkedin.com/in/TheFrankWei/' target="_blank" rel="noopener"><img  src={Flickr} alt="Flickr"/></a>
+        <Icon href='https://github.com/TheFrankWei' target="_blank" rel="noopener" src={GitHub} alt="Github"/>
+        <Icon href='https://www.linkedin.com/in/TheFrankWei/' target="_blank" rel="noopener" src={Linkedin} alt="Linkedin"/>
+        <Icon target="_blank" rel="noopener" src={Flickr} alt="Flickr -- Coming Soon!"/>
       </div>
       </div>
     );
   }
-}
+
 
 export default Contact;

@@ -1,17 +1,11 @@
-import React, { Component } from 'react';
-// import Letter from './../../../components/Letter/Letter.js';
+import React from 'react';
 import PortfolioItem from './../../../components/PortfolioItem/PortfolioItem.js';
 import './Portfolio.css';
 import PortfolioItems from './PortfolioItems.js';
 import Letter from './../../../components/Letter/Letter.js';
-import GitHub from './../../../images/github.svg';
-import PDF from './../../../images/pdf.svg';
-import Javascript from './../../../images/javascript.svg';
 
-class Portfolio extends Component {
-  render(
+const Portfolio = () => {
 
-  ) {
   return (
    <div className="Portfolio" id = "Portfolio">
       <h1 className = "PTitle">
@@ -30,8 +24,10 @@ class Portfolio extends Component {
            <PortfolioItem render={item.render} key={i} />
          ))}
      </div>
+
+
    </div>
  );
-};
+
 }
 export default Portfolio;

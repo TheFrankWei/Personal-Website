@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.OnePlaylist{
+  padding-top: 5%;
+  font-family: 'Nunito', sans-serif;
+  marin-left:10%;
+
+}
+
+.OnePlaylist i{
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%
+}
+
+.OnePlaylist h1{
+text-align:center;
+}
+
+
+.OnePlaylist p{
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width:70%;
+}
+
+.OnePlaylist ul{
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width:70%;
+}
+
+.OnePlaylist figure{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

@@ -12,7 +12,7 @@
   width: 12rem;
   margin: 1rem 1rem;
   height:200px;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-family: 'Fira Sans', sans-serif;
@@ -24,6 +24,7 @@
 .PortfolioItem__title{
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 10%;
 }
 
 .PortfolioItem__desc{
@@ -34,12 +35,18 @@
 
 }
 .PortfolioItem__links{
-  display: flex;
+margin-top: 10%;
+display: flex;
 
 
 }
+.PortfolioItem__links div{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
-.PortfolioItem__links > a{
-justify-content: space-between;
-margin: 10%;
+.PortfolioItem__links img{
+width:30px;
+display: inline-block;
+
 }

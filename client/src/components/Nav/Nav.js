@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import './Nav.css';
+import { Route } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import UpIcon from './../../images/scroll_up_icon.svg';
+import Icon from './../Icon/Icon.js'
+
 
 class Nav extends Component{
 
@@ -21,18 +24,13 @@ class Nav extends Component{
     </div>
 
     <div className = 'toTopWrapper'>
-    {/* <button id = 'toTop'
-    //         onClick={scrollToTop}><img
-    //         src={UpIcon}
-    //         alt='scroll up!'/>
-    // </button>*/}
-    <a
+    <Icon
       id = 'toTop'
-      onClick={scrollToTop}><img
+      onClick={scrollToTop}
       src={UpIcon}
       alt='scroll up!'/>
-    </a>
     </div>
+
     </div>
 
   );

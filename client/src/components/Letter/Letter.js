@@ -3,36 +3,21 @@ import './Letter.css';
 
 const Letter = (props) => {
 
+  let colors = ['#112F41','#068587','#4FB99F','#F2B134','#ED553B']
   let style = {
-    color:'#2B3A42'
-  };
+    color: colors[Math.floor(Math.random() * 5)]
+  }
 
-  const styleHelper = () => {
-    let rand = Math.floor(Math.random() * 5);
-    switch(rand){
-      case rand === 1:
-      this.setState({colorChange:'#3F5866'});
-        break;
-      case rand === 2:
-      this.setState({colorChange:'#BDD3DE'});
-        break;
-      case rand === 3:
-      this.setState({colorChange:'#F0F0DF'});
-        break;
-      case rand === 4:
-      this.setState({colorChange:'#FF8F00'});
-        break;
-      default:
-        break;
-    };
-  };
+  if(style.color === ''){
+    style.color = colors[Math.floor(Math.random() * 5)];
+  }
 
   return(
+
   <span
   id="Letter"
   className = {'Letter'+'__'+props.className}
   style = {style}
-  onClick = {console.log('clicked')}
   >
   {props.value}
   </span>

@@ -1,36 +1,53 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
-@keyframes mDown {
+@keyframes move {
     0% {
       top: 0px;
     }
     50% {
-      top: 50px;
+      top: 35px;
     }
     100% {
       top: 0px;
   }
 }
 
-#Letter:hover {
-transition: top 2s;
-transition-duration: 2s;
-top: 50px;
+@keyframes moved {
+    0% {
+      top: 0px;
+    }
+    25%{
+      top : 40px;
+    }
+    50% {
+      top: 0px;
+    }
+
+    100% {
+      top: 40px;
+  }
 }
 
+.hovered {
+  animation: mDown 3s;
+}
 
-
-span{
+#Letter{
   line-height: 110px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
   letter-spacing: -20px;
   mix-blend-mode: color-burn;
   position: relative;
-  top: 0px;
-  transition: top 2s;
-  transition-delay: 0.18s;
+
+  animation: move 1s ease-out;
+  animation-fill-mode: forwards;
   opacity: 0.9;
 
+}
+#Letter:hover {
+
+animation: moved 1s ease-out;
+animation-fill-mode: forwards;
 }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.QRFound{
+  padding-top: 5%;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.QRFound  h1{
+  text-align: center;
+}
+
+.QRFound  p{
+  font-size: 10px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%
+}
+.QRFound  h2{
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%
+}
+
+
+.QRFound i{
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%
+}
+
+.QRFound figure{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.LittleEinstein{
+  padding-top: 5%;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.LittleEinstein p{
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%
+}
+
+.LittleEinstein i{
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%
+}
+
+.LittleEinstein figure{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

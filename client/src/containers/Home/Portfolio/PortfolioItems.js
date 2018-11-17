@@ -1,7 +1,9 @@
 import React from 'react';
+import {Link, Route } from 'react-router-dom';
 import GitHub from './../../../images/github.svg';
 import PDF from './../../../images/pdf.svg';
-import Javascript from './../../../images/javascript.svg';
+import Article from './../../../images/article.svg'
+import Wireframe from './../../../images/wireframe.svg';
 
 export default [{
   name: 'typy',
@@ -18,7 +20,8 @@ export default [{
         <i className="fab fa-npm"></i>
       </div>
       <div className='PortfolioItem__links'>
-        <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/TheFrankWei/LiftSpotter" alt='Github Link'/></a>
+      <div><Link to='/Portfolio/LiftSpotter'><img src={Article} alt='read more'/></Link></div>
+      <div><a target="_blank" rel="noopener noreferrer" href = "https://github.com/TheFrankWei/LiftSpotter"><img src={GitHub} alt='Github Link'/></a></div>
       </div>
     </div>
   )
@@ -37,12 +40,31 @@ export default [{
         <i className="fab fa-npm"></i>
       </div>
       <div className='PortfolioItem__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">More</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">GitHub</a>
+        <div><Link to='/Portfolio/QRFound'><img src={Article} alt='read more'/></Link></div>
+        <div><a target="_blank" rel="noopener noreferrer" href = "https://github.com/TheFrankWei/QRFound"><img src={GitHub} alt='Github Link'/></a></div>
       </div>
     </div>
     )
-  }, {
+  },{
+    name: 'typy',
+    render: (
+      <div className='PortfolioItem'>
+        <div className='PortfolioItem__title'>
+          OnePlaylist
+        </div>
+        <div className='PortfolioItem__desc'>
+          AWS Webapp for one big playlist! (WIP) <br/><br/>
+        </div>
+        <div className='PortfolioItem__icon'>
+          <i className="Javascript"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        <div className='PortfolioItem__links'>
+          <div><Link to='/Portfolio/OnePlaylist'><img src={Article} alt='read more'/></Link></div>
+        </div>
+      </div>
+      )
+    }, {
     name: 'typy',
     render: (
       <div className='PortfolioItem'>
@@ -50,15 +72,34 @@ export default [{
           SoundByte
         </div>
         <div className='PortfolioItem__desc'>
-          UX Design Project
+          UX Design Project for Microsoft Challenge <br/><br/>
         </div>
         <div className='PortfolioItem__icon'>
           <i className="Javascript"></i>
           <i className="fab fa-npm"></i>
         </div>
         <div className='PortfolioItem__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/QRFound">More</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheFrankWei/LiftSpotter">Google Drive</a>
+          <div><Link to='/Portfolio/SoundByte'><img src={Article} alt='read more'/></Link></div>
+          <div><a target="_blank" rel="noopener noreferrer" href="https://projects.invisionapp.com/share/ZQHWMH78S4N#/screens/293059953"><img src={Wireframe} alt='Invision Link'/></a></div>
+        </div>
+      </div>
+    )
+  },{
+    name: 'typy',
+    render: (
+      <div className='PortfolioItem'>
+        <div className='PortfolioItem__title'>
+          Little Einstein
+        </div>
+        <div className='PortfolioItem__desc'>
+          UI/UX for a toy store <br/><br/><br/>
+        </div>
+        <div className='PortfolioItem__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        <div className='PortfolioItem__links'>
+        <div><Link to='/Portfolio/LittleEinstein'><img src={Article} alt='read more'/></Link></div>
         </div>
       </div>
     )
@@ -77,7 +118,7 @@ export default [{
           <i className="fab fa-npm"></i>
         </div>
         <div className='PortfolioItem__links'>
-          <p>(to be added)</p>
+          <p>Check back later!</p>
         </div>
       </div>
     )

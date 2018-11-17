@@ -1,19 +1,26 @@
 .Welcome{
   height: 100vh;
+
 }
 
 .About{
    height: 100vh;
+   text-align: center;
 }
 
 .Portfolio{
   height: 100vh;
+  text-align: center;
 }
 
 .Contact{
   height: 100vh;
+  text-align: center;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
 /* .HomePage{
   float:left;
   display: block;
